@@ -19,3 +19,4 @@ We provide:
  - example is an example script of how to estimate the covariate-specific time dependent AUC with its confidence interval. The exdata database is used.
 
 
+This project is supplementary material for the article "A covariate-specific time dependent ROC for correlated survival data"
