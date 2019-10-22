@@ -10,6 +10,8 @@ We provide:
  
 - AUCtime is a function to estimate the covariate-specific time dependent ROC curve and AUC specifying the formula of the shared frailty model and the biomarker model. It returns the covariate-specific time dependent TPR and FPR for any treshold, the AUC(t*) if t* is specified, otherwise the AUC at all the observed failure times is provided.
  
+- AUCtimeloc is a function to estimate the covariate-specific time dependent ROC curve and AUC from a shared frailty model and the location model for the biomarker distribution. It returns the covariate-specific time dependent TPR and FPR for any treshold, the AUC(t*) if t* is specified, otherwise the AUC at all the observed failure times is provided.
+
 - parbootNICS file with 2 functions used for the confidence interval obtained by parametric bootstrap
 
   - parboot:  to generate the bootstrap data set from the estimated parameters of the original data set
